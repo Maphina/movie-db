@@ -1,0 +1,52 @@
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    position: sticky;
+    top: 0;
+    background-color:rgb(63, 45, 68);
+    z-index: 1;
+    color:#fff;
+}
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.edit{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.edit label {
+  text-align: left;
+  display: block;
+}
+.edit h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.edit input, .edit textarea, .edit select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.edit button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
